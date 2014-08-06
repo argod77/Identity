@@ -20,7 +20,8 @@ public class UserService extends Service<UserConfiguration> {
  
     @Override
     public void initialize(Bootstrap<UserConfiguration> bootstrap) {
-        bootstrap.setName("user");
+        //test comment
+    	bootstrap.setName("user");
     }
  
     @Override
